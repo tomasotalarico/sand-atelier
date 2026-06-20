@@ -12,7 +12,7 @@ export default function Home() {
 
         <div className="relative z-10 section-max-width text-center">
           <div className="mb-8 inline-block">
-            <span className="text-sm tracking-widest uppercase text-gray-600">Contemporary Fashion Design</span>
+            <span className="text-sm tracking-widest uppercase text-gray-600">Bespoke Luxury Fashion Manufacturer</span>
           </div>
 
           <h1 className="text-display mb-6 text-gray-900">
@@ -21,78 +21,78 @@ export default function Home() {
           </h1>
 
           <p className="text-subheading text-gray-600 mb-12 max-w-2xl mx-auto font-light">
-            Curated collections of contemporary fashion with an emphasis on innovative silhouettes and refined craftsmanship.
+            Vertically integrated design and manufacturing. Bespoke quality. Made to order. Every piece crafted with uncompromising attention to detail.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/collections" className="btn-primary inline-block">
-              Explore Collections
+              View Our Standards
             </Link>
             <Link href="/about" className="btn-secondary inline-block">
-              Learn More
+              Our Craft
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Featured Collections */}
+      {/* Our Standards */}
       <section className="section-padding bg-white">
         <div className="section-max-width">
           <div className="mb-16 text-center">
-            <span className="text-sm tracking-widest uppercase text-gray-600">Featured</span>
-            <h2 className="text-headline text-gray-900 mt-3 mb-4">Latest Collections</h2>
+            <span className="text-sm tracking-widest uppercase text-gray-600">Quality Standards</span>
+            <h2 className="text-headline text-gray-900 mt-3 mb-4">What We Stand For</h2>
             <div className="w-12 h-1 bg-sage mx-auto"></div>
           </div>
 
           <div className="grid-auto-fit">
-            {/* Collection Card 1 */}
+            {/* Standard 1 */}
             <div className="group hover-lift">
               <div className="relative bg-gray-100 aspect-portrait-img mb-4 overflow-hidden">
                 <div className="w-full h-full bg-gradient-to-br from-gray-200 to-gray-100 flex items-center justify-center">
                   <span className="text-gray-400 text-center">
-                    <div className="text-4xl mb-2">👗</div>
-                    Collection 1
+                    <div className="text-4xl mb-2">🧵</div>
+                    Premium Materials
                   </span>
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Spring Geometric</h3>
-              <p className="text-gray-600 text-sm mb-4">Faceted silhouettes with contemporary edge</p>
-              <Link href="/collections/spring-geometric" className="text-sage hover:text-accent transition-smooth text-sm font-medium">
-                View Collection →
+              <h3 className="text-xl font-semibold mb-2">Ethically Sourced Fabrics</h3>
+              <p className="text-gray-600 text-sm mb-4">Only the finest natural fibers and sustainable materials. Every bolt vetted for durability and beauty.</p>
+              <Link href="/collections/materials" className="text-sage hover:text-accent transition-smooth text-sm font-medium">
+                Explore Materials →
               </Link>
             </div>
 
-            {/* Collection Card 2 */}
+            {/* Standard 2 */}
             <div className="group hover-lift">
               <div className="relative bg-gray-100 aspect-portrait-img mb-4 overflow-hidden">
                 <div className="w-full h-full bg-gradient-to-br from-sage/20 to-accent/20 flex items-center justify-center">
                   <span className="text-gray-400 text-center">
-                    <div className="text-4xl mb-2">👠</div>
-                    Collection 2
+                    <div className="text-4xl mb-2">🤝</div>
+                    Bespoke Design
                   </span>
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Editorial Series</h3>
-              <p className="text-gray-600 text-sm mb-4">Curated pieces from runway to closet</p>
-              <Link href="/collections/editorial-series" className="text-sage hover:text-accent transition-smooth text-sm font-medium">
-                View Collection →
+              <h3 className="text-xl font-semibold mb-2">Made to Order</h3>
+              <p className="text-gray-600 text-sm mb-4">Work directly with our design team. Customized to your measurements, preferences, and vision.</p>
+              <Link href="/collections/bespoke" className="text-sage hover:text-accent transition-smooth text-sm font-medium">
+                Commission a Piece →
               </Link>
             </div>
 
-            {/* Collection Card 3 */}
+            {/* Standard 3 */}
             <div className="group hover-lift">
               <div className="relative bg-gray-100 aspect-portrait-img mb-4 overflow-hidden">
                 <div className="w-full h-full bg-gradient-to-br from-gray-100 to-gray-50 flex items-center justify-center">
                   <span className="text-gray-400 text-center">
-                    <div className="text-4xl mb-2">✨</div>
-                    Collection 3
+                    <div className="text-4xl mb-2">⚙️</div>
+                    Vertical Integration
                   </span>
                 </div>
               </div>
-              <h3 className="text-xl font-semibold mb-2">Essentials</h3>
-              <p className="text-gray-600 text-sm mb-4">Timeless pieces with modern sensibility</p>
-              <Link href="/collections/essentials" className="text-sage hover:text-accent transition-smooth text-sm font-medium">
-                View Collection →
+              <h3 className="text-xl font-semibold mb-2">In-House Craftsmanship</h3>
+              <p className="text-gray-600 text-sm mb-4">Design to finished product—every step controlled in-house. No compromises. No shortcuts.</p>
+              <Link href="/collections/craftsmanship" className="text-sage hover:text-accent transition-smooth text-sm font-medium">
+                Our Process →
               </Link>
             </div>
           </div>
@@ -105,33 +105,33 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <span className="text-sm tracking-widest uppercase text-gray-600">About Sand Atelier</span>
-              <h2 className="text-headline text-gray-900 mt-3 mb-6">Contemporary Luxury Fashion</h2>
+              <h2 className="text-headline text-gray-900 mt-3 mb-6">Bespoke Luxury, Vertically Integrated</h2>
               <p className="text-body text-gray-700 mb-6 leading-relaxed">
-                Sand Atelier is a contemporary fashion design studio dedicated to crafting innovative pieces that bridge runway aesthetics with wearable luxury. Each collection showcases our commitment to architectural silhouettes and refined craftsmanship.
+                Sand Atelier is a luxury clothing designer and manufacturer committed to uncompromising quality. We control every step of production—from concept to finished garment—ensuring that each piece meets our exacting standards.
               </p>
               <p className="text-body text-gray-700 mb-8 leading-relaxed">
-                From editorial photography to curated runway selections, we celebrate the intersection of art and fashion.
+                Our approach is simple: no shortcuts, no outsourcing quality control, no compromises on materials. We work with clients who understand that true luxury is built on craftsmanship and attention to detail.
               </p>
               <Link href="/about" className="btn-primary inline-block">
-                Our Story
+                Our Philosophy
               </Link>
             </div>
 
             <div className="bg-gradient-to-br from-sage/30 to-accent/30 aspect-square rounded-lg flex items-center justify-center">
               <div className="text-center">
-                <div className="text-6xl mb-4">✨</div>
-                <p className="text-gray-600">Haute Couture Aesthetic</p>
+                <div className="text-6xl mb-4">🏗️</div>
+                <p className="text-gray-600">Vertically Integrated Craft</p>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Social Proof / Connect */}
+      {/* Connect / Commissions */}
       <section className="section-padding bg-white">
         <div className="section-max-width text-center">
-          <span className="text-sm tracking-widest uppercase text-gray-600">Connect With Us</span>
-          <h2 className="text-headline text-gray-900 mt-3 mb-12">Follow Sand Atelier</h2>
+          <span className="text-sm tracking-widest uppercase text-gray-600">Work With Us</span>
+          <h2 className="text-headline text-gray-900 mt-3 mb-12">Commission Your Bespoke Piece</h2>
 
           <div className="flex justify-center gap-6 mb-8">
             <a
@@ -146,14 +146,12 @@ export default function Home() {
               </svg>
             </a>
             <a
-              href="https://www.facebook.com/106520677909228"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="mailto:hello@sandatelier.com"
               className="w-14 h-14 rounded-full border border-gray-300 flex items-center justify-center hover:border-sage hover:text-sage transition-smooth"
-              aria-label="Facebook"
+              aria-label="Email"
             >
               <svg className="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
               </svg>
             </a>
             <a
@@ -170,7 +168,7 @@ export default function Home() {
           </div>
 
           <p className="text-gray-600 text-sm">
-            Join our community of fashion enthusiasts and stay updated with the latest collections.
+            Interested in commissioning a bespoke piece? We'd love to hear about your vision. Reach out via email or DM us on Instagram.
           </p>
         </div>
       </section>
